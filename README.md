@@ -12,3 +12,9 @@ These are my personal notes about nim for Security stuff or for automate things.
 ```nim
 #!/usr/bin/env -S nim --hints:off 
 ```
+
+## Red Team Operations
+
+[Offensive Nim](https://github.com/byt3bl33d3r/OffensiveNim)
+
+
