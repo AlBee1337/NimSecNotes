@@ -11,4 +11,3 @@ var encryptedMessage1 = hexToSeqByte("fd034c32294bfa6ab44a28892e75c4f24d8e71b41c
 ```
 [click here for Code example Crypto CTF Challenge](sol.nims)
 
-
