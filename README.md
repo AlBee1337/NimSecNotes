@@ -3,7 +3,7 @@
 These are my personal notes about nim for Security stuff or for automate things.
 
 
-## Shebang for Nim Script
+## Shebang for Nim Script (*.nims)
 - normal
 ```nim
 #!/usr/bin/env nim 
