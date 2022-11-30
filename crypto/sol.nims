@@ -11,12 +11,12 @@ var
     decryptedFlag: seq[byte]
 
 for index, content in encryptedMessage1:
-    key.add(content xor encryptedMessage2[index]) 
+    key.add(content xor encryptedMessage2[index])  # xor the same message to get the key
 
 echo toHex(key)
 
 for index, content in key:
-    decryptedFlag.add(content xor encryptedFlag[index])
+    decryptedFlag.add(content xor encryptedFlag[index]) # xor the flag with the key
 
-echo parseHexStr(toHex(decryptedFlag))
+echo parseHexStr(toHex(decryptedFlag)) # convert to Hex then parse to Str for plain text
 
